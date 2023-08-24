@@ -17,6 +17,6 @@ def passcard_info_view(request, passcode):
 
     context = {
         'passcard': passcard,
-        'this_passcard_visits': this_passcard_visits
+        'this_passcard_visits': this_passcard_visits,
     }
     return render(request, 'passcard_info.html', context)
