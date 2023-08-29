@@ -27,3 +27,8 @@ pip install -r requirements.txt
 - DB_USER
 - DB_PASSWORD
 - SECRET_KEY
+
+### Запуск
+```bash
+python manage.py runserver 0.0.0.0:8000.
+```
